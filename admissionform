@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+  
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <title>BCWCC - Application Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="../assets/css/line-awesome.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/application form.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="http://www.bcwcc.org.in/images/fevicon.png">
+    <link rel="apple-touch-icon" href="http://www.bcwcc.org.in/images/fevicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://www.bcwcc.org.in/images/fevicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://www.bcwcc.org.in/images/fevicon.png">
+
+<style>
+    .form-group{position: relative;}
+    .error{color: #f00;  position: absolute; display: none;}</style>
+  </head>
+  <body>
+
+   <div class="ugf-nav" style="background: #0a7c24;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="navigation">
+              <div class="logo">
+                <a href=""><img src="http://www.bcwcc.org.in/images/header.png" class="img-fluid" alt=""></a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ugf-bg ufg-main-container" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="ugf-form">
+              <form action="#" method="post">
+                <div class="input-block">
+                  <h4>Application Form</h4>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" name="fname" placeholder="e.g. Rani">
+                          <span class="error" id="erfname">dadasd</span>
+                      </div>
+                    </div>
+                      
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" id="lname" name="lname" placeholder="Devi">
+                           <span class="error" id="erlname">dadasd</span>
+                      </div>
+                    </div>
+                      
+                       <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="email">Email Id</label>
+                        <input type="text" class="form-control" id="email" name="email" placeholder="ranidevi@gmail.com" >
+                          <span class="error" id="eremail">dadasd</span>
+                      </div>
+                  </div>
+                     <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="phone">Student's Phone No.</label>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="+91">
+                           <span class="error" id="erphone">dadasd</span>
+                      </div>
+                  </div>
+                   
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="inputDate">Date of Birth</label>
+                        <div class="birth-date">
+                          <div class="select-input birth-date-input">
+                            <span></span>
+                            <select id="bdate" name="bdate" class="form-control">
+                              <option value="">Date</option>
+                              <option value="01">01</option>
+                              <option value="02">02</option>
+                              <option value="03">03</option>
+                              <option value="04">04</option>
+                              <option value="05">05</option>
+                              <option value="06">06</option>
+                              <option value="07">07</option>
+                              <option value="08">08</option>
+                              <option value="09">09</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                              <option value="13">13</option>
+                              <option value="14">14</option>
+                              <option value="15">15</option>
+                              <option value="16">16</option>
+                              <option value="17">17</option>
+                              <option value="18">18</option>
+                              <option value="19">19</option>
+                              <option value="20">20</option>
+                              <option value="21">21</option>
+                              <option value="22">22</option>
+                              <option value="23">23</option>
+                              <option value="24">24</option>
+                              <option value="25">25</option>
+                              <option value="26">26</option>
+                              <option value="27">27</option>
+                              <option value="28">28</option>
+                              <option value="29">29</option>
+                              <option value="30">30</option>
+                            </select>
+                          </div>
+                          <div class="select-input birth-date-input">
+                            <span></span>
+                            <select id="bmonth" name="bmonth" class="form-control">
+                              <option value="">Month</option>
+                              <option value="01">01</option>
+                              <option value="02">02</option>
+                              <option value="03">03</option>
+                              <option value="04">04</option>
+                              <option value="05">05</option>
+                              <option value="06">06</option>
+                              <option value="07">07</option>
+                              <option value="08">08</option>
+                              <option value="09">09</option>
+                              <option value="10">10</option>
+                              <option value="11">11</option>
+                              <option value="12">12</option>
+                            </select>
+                          </div>
+                          <div class="select-input birth-date-input">
+                            <span></span>
+                            <select id="byear" name="byear" class="form-control">
+                            <option value="">Year</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                          </select>
+                          </div>
+                        </div>
+                           <span class="error" id="erdob">dadasd</span>
+                      </div>
+                    </div>
+                       <div class="col-md-6">
+                      <div class="form-group country-select">
+                        <label for="country">Country of Nationality</label>   
+                           <div class="select-input birth-date-input">
+                            <span></span>
+                            <select id="country" name="country" class="form-control">                                
+                              <option value="" >Select Country</option>
+                              <option value="INDIA">INDIA</option>
+                              <option value="USA">USA</option>
+                              <option value="Russia">Russia</option>
+                              <option value="China">China</option>
+                              <option value="England">England</option>
+                              <option value="France">France</option>
+                              <option value="Germany">Germany</option>
+                              <option value="Spain">Spain</option>
+                              <option value="Netherland">Netherland</option>
+                              <option value="Singapur">Singapur</option>
+                            </select>
+                          </div>
+                            <span class="error" id="ercountry">dadasd</span>
+                       
+                      </div>
+                    </div>
+                      
+                      <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="address1">Address </label>
+                        <input type="text" class="form-control" id="address1" name="address1" placeholder="e.g. 19, 3rd Cross , Mission Road, C. S. I. Compound, Bengaluru, Karnataka 560027 ">
+                          <span class="error" id="eraddress1">dadasd</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="state">State</label>
+                        <input type="text" class="form-control" id="state" name="state" placeholder="Enter your State">
+                           <span class="error" id="erstate">dadasd</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" name="city" placeholder="e.g. Banglore">
+                          <span class="error" id="ercity">dadasd</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="zip">Post Code</label>
+                        <input type="text" class="form-control" id="zip" name="zip" placeholder="e.g. 0000">
+                           <span class="error" id="erzip">dadasd</span>
+                      </div>
+                    </div>
+                     <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="faname">Father's Name</label>
+                        <input type="text" class="form-control" id="faname" placeholder="e.g. Nithin" >
+                          <span class="error" id="erfaname">dadasd</span>
+                      </div>
+                    </div>
+                      <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="mname">Mother's Name</label>
+                        <input type="text" class="form-control" id="mname" name="mname" placeholder="e.g. Reshma">
+                          <span class="error" id="ermname">dadasd</span>
+                      </div>
+                    </div>
+                    
+                      <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">Gender</label>
+                    <div class="check-gender">
+                      <div class="custom-radio">
+                        <input type="radio" name="gender" class="custom-control-input chfedbac" id="Gmale" >
+                        <label class="custom-control-label" for="Gmale">Male</label>
+                      </div>
+                      <div class="custom-radio">
+                        <input type="radio" name="gender" class="custom-control-input chfedbac" id="Gfemale" >
+                        <label class="custom-control-label" for="Gfemale">Female</label>
+                      </div>
+                    </div>
+                      <span class="error" id="ergender">dadasd</span>
+                  </div>
+                </div>
+                       <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="aadhar">Aadhar Number</label>
+                        <input type="text" class="form-control" id="aadhar" name="aadhar"  placeholder=" 000000">
+                          <span class="error" id="eraadhar">dadasd</span>
+                      </div>
+                  </div>
+                    <div class="col-md-6">
+                      <div class="form-group country-select">
+                        <label for="course">Courses offered</label>
+                        <div class="select-input choose-course">
+                          <span></span>
+                            <select id="course" name="course" class="form-control">
+                              <option value="">Course</option>
+                              <option value="B.A">B.A</option>
+                              <option value="BSC">BSC</option>
+                              <option value="BCOM">BCOM</option>
+                              <option value="BCA">BCA</option>
+                              <option value="BBA">BBA</option>
+                            </select>
+                        </div>
+                           <span class="error" id="ercourse">dadasd</span>
+                      </div>
+                    </div>
+                      <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="SSLC">SSLC PERCENTAGE</label>
+                        <input type="number" class="form-control" id="sslcper" min="0" max="100" placeholder="100%">
+                          <span class="error" id="ersslcper">dadasd</span>
+                      </div>
+                    </div>
+                       <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="PUC">PUC PERCENTAGE</label>
+                        <input type="number" class="form-control" id="pucper" min="0" max="100" placeholder="100%">
+                              <span class="error" id="erpucper">dadasd</span>
+                      </div>
+                    </div>
+                <div class="input-block">
+                  <h4>Documents</h4>
+                  <p>Upload the following Document.</p>
+                  <div class="documents-upload-wrap" ;="" style="margin-top: 10px;">
+                    <div class="label">Select Document type</div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="passport-tab" data-toggle="tab" href="#passport" role="tab" aria-controls="passport" aria-selected="true"><img src="images/passport.png" alt="">PHOTO</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="nid-tab" data-toggle="tab" href="#nid" role="tab" aria-controls="nid" aria-selected="false"><img src="images/nid.png" alt="">SSLC MARKS CARD</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="driver-tab" data-toggle="tab" href="#driver" role="tab" aria-controls="driver" aria-selected="false"><img src="images/driving.png" alt="">PUC MARKS CARD</a>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="passport" role="tabpanel" aria-labelledby="home-tab">
+                          
+                        <div class="documents-upload">
+                             <div class="col-md-12">
+                          <div class="upload-item">
+                            <input type="file" id="input1" class="input-file" accept="image/*" hidden />
+                            <label class="btn-upload" for="input1" role="button">
+                              <img src="images/cloud.png">
+                              <div id="p-input1" class="preview-box"></div>
+                            </label>
+                            <div class="upload-direction"><span class="text">Passport Size Photo</span><a href="#"><img src="images/download.png" alt=""></a></div>
+                          </div>
+                            </div>
+                          
+                        </div>
+                        <div class="conditions">
+                          <ul>
+                            <li class="complete">File accepted: JPEG/JPG/PNG (Max size: 1 KB)</li>
+                            <li>Document should be good condition</li>
+                            <li>Document must be  valid period</li>
+                            <li>Face must be clear visible</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="nid" role="tabpanel" aria-labelledby="nid-tab">
+                        <div class="documents-upload">
+                            <div class="col-md-12">
+                          <div class="upload-item">
+                                
+                            <input type="file" id="input4" class="input-file" accept="image/*" hidden />
+                            <label class="btn-upload" for="input4" role="button">
+                              <img src="images/cloud.png">
+                              <div id="p-input4" class="preview-box"></div>
+                            </label>
+                            <div class="upload-direction"><span class="text">SSLC Marks Card</span><a href="#"><img src="images/download.png" alt=""></a></div>
+                          </div>
+                            </div>
+                      
+                        </div>
+                        <div class="conditions">
+                          <ul>
+                            <li class="complete">File accepted: JPEG/JPG/PNG (Max size: 1 KB)</li>
+                            <li>Document should be good condition</li>
+                            <li>Document must be  valid period</li>
+                            <li>Face must be clear visible</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="driver" role="tabpanel" aria-labelledby="driver-tab">
+                        <div class="documents-upload">
+                            <div class="col-md-12">
+                          <div class="upload-item">
+                            <input type="file" id="input7" class="input-file" accept="image/*" hidden />
+                            <label class="btn-upload" for="input7" role="button">
+                              <img src="images/cloud.png">
+                              <div id="p-input7" class="preview-box"></div>
+                            </label>
+                            <div class="upload-direction"><span class="text">PUC Marks Card</span><a href="#"><img src="images/download.png" alt=""></a></div>
+                          </div>
+                        
+                            </div>
+                        </div>
+                        <div class="conditions">
+                          <ul>
+                            <li class="complete">File accepted: JPEG/JPG/PNG (Max size: 1 KB)</li>
+                            <li>Document should be good condition</li>
+                            <li>Document must be  valid period</li>
+                            <li>Face must be clear visible</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                  <div class="form-group">
+                    <div class="custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customControlValidation1" required="">
+                      <label class="custom-control-label" for="customControlValidation1">I have read the Online Admission Form and have filled it to the the best of my knowledge.I have enclosed the required documents and will comply with the decision taken by the Admission Committee with regard to the admission process.I uderstand that the an incomplete application will be subjected to rejection.</label>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn" type="button" style="background: #0a7c24;" id="fromvalidate">SUBMIT</button>
+              
+                
+            </div>
+                  
+          </div>
+                  </form>
+        </div>
+      </div>
+    </div>
+
+        </div>
+      </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+    <!-- <script src="../assets/js/owl.carousel.min.js"></script> -->
+    <!-- <script src="../assets/js/countrySelect.min.js"></script> -->
+
+    <script src="js/custom.js"></script>
+      
+      <script>
+      $("#fromvalidate").click(function(){
+          var fname = $("#fname").val();
+          var lname = $("#lname").val();
+          var country = $("#country").val();
+          var bdate = $("#bdate").val();
+           var bmonth = $("#bmonth").val();
+          var byear = $("#byear").val();
+           var phone = $("#phone").val();
+           var faname = $("#faname").val();
+          var mname = $("#mname").val();
+           var state = $("#state").val();
+          var zip = $("#zip").val();
+            var aadhar = $("#aadhar").val();
+          var email = $("#email").val();
+           var sslcper = $("#sslcper").val();
+          var pucper = $("#pucper").val();
+           var city = $("#city").val();
+          var address1 = $("#address1").val();
+           var course = $("#course").val();
+          
+          var a=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+          var q=/^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
+          var aad = /^[2-9]{1}[0-9]{3}\\s[0-9]{4}\\s[0-9]{4}$/;
+          var s= true;
+         /* alert(fname);*/
+          if(fname == ""){$("#erfname").show().html("Required"); s=false;}
+          else{$("#erfname").hide();}
+          if(lname == ""){$("#erlname").show().html("Required"); s=false;}
+          else{$("#erlname").hide();}
+          if(country == ""){$("#ercountry").show().html("Required"); s=false;}
+          else{$("#ercountry").hide();}
+          if(bdate == "" || bmonth == "" || byear == "" ){$("#erdob").show().html("Required - Date, Month, Year"); s=false;}
+           else{$("#erdob").hide();}
+          if(faname == ""){$("#erfaname").show().html("Required"); s=false;}
+          else{$("#erfaname").hide();}
+           if(mname == ""){$("#ermname").show().html("Required"); s=false;}
+          else{$("#ermname").hide();}
+           if(state == ""){$("#erstate").show().html("Required"); s=false;}
+          else{$("#erstate").hide();}
+          if(zip == ""){$("#erzip").show().html("Required"); s=false;}
+          else{$("#erzip").hide();}
+          if(aadhar == ""){$("#eraadhar").show().html("Required"); s=false;}
+          else{$("#eraadhar").hide();}
+          if(city == ""){$("#ercity").show().html("Required"); s=false;}
+          else{$("#ercity").hide();}
+          if(address1 == ""){$("#eraddress1").show().html("Required"); s=false;}
+          else{$("#eraddress1").hide();}
+           if(sslcper == ""){$("#ersslcper").show().html("Required"); s=false;}
+          else{$("#ersslcper").hide();}
+          if(pucper == ""){$("#erpucper").show().html("Required"); s=false;}
+          else{$("#erpucper").hide();}
+            if(course == ""){$("#ercourse").show().html("Required"); s=false;}
+          else{$("#ercourse").hide();}
+          if(!a.test(email)){
+              if(email==""){
+                  $("#eremail").show().html("Please enter your Email ID");
+              }else{
+                  if(email!=""){$("#eremail").show().html("Invalid Email ID");}
+              }s=false;
+          }else{
+              $("#eremail").hide();
+          }
+          if(!q.test(phone)){
+              if(phone==""){
+                  $("#erphone").show().html("Please enter your Phone Number");
+              }else{
+                  if(phone!=""){$("#erphone").show().html("Invalid Phone Number");}
+              }s=false;
+          }else{
+              $("#erphone").hide();
+          }
+          
+           if($("input.chfedbac:checked").length<1){$("#ergender").show();$("#ergender").html("Please Select Gender");s=false}else{$("#ergender").hide();}
+          
+          if (s==false){alert("Please Fille all mandatory(required) fileds")
+          }else{alert("Form Submitted Successfully");}
+          return s;          
+          
+      });
+      </script>   
+      
+  </body>
+</html>
